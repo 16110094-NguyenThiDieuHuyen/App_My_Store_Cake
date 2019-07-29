@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LienHeActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Liên hệ"
+        app:titleTextColor="#FCFAFA"
+        android:background="#051D5A">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/backgrounddoan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textColor="#FCFDFD"
+            android:text="Liên Hệ Với Chúng Tôi"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:src="@drawable/emailicon" />
+            <LinearLayout
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Email"
+                    android:textColor="#f20"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:text="nguyenthidieuhuyenpy@gmail.com"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/boder"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/cutephoneicon" />
+                <LinearLayout
+                    android:layout_width="286dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Phone number"
+                        android:textColor="#f20"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:text="070 777 0954 - 012 789 3456"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/boder"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/facebookicon" />
+                <LinearLayout
+                    android:layout_width="286dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Fanpage"
+                        android:textColor="#f20"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:text="https://www.facebook.com/nu.trang.754"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
